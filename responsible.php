@@ -148,6 +148,9 @@ class responsible {
  * @author Scott Evans
  */
 function responsible_init() {
+
+	load_plugin_textdomain('responsible', false, dirname( plugin_basename(__FILE__) ) . '/assets/languages/');
+
 	global $responsible;
 	$responsible = new responsible();
 }

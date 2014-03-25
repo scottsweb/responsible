@@ -1,6 +1,5 @@
 === Responsible ===
 Contributors: scottsweb, codeforthepeople
-Donate link: https://flattr.com/profile/scottsweb/things
 Tags: responsible, responsive, viewport, resizer, resizing, iphone, device, test, admin, bar, admin bar
 Requires at least: 3.5
 Tested up to: 3.8.1
