@@ -13,22 +13,22 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Copyright © 2013 Code for the People ltd
 
-				_____________
-			   /      ____   \
-		 _____/       \   \   \
-		/\    \        \___\   \
-	   /  \    \                \
-	  /   /    /          _______\
-	 /   /    /          \       /
-	/   /    /            \     /
-	\   \    \ _____    ___\   /
-	 \   \    /\    \  /       \
-	  \   \  /  \____\/    _____\
-	   \   \/        /    /    / \
-		\           /____/    /___\
-		 \                        /
-		  \______________________/
-
+                _____________
+               /      ____   \
+         _____/       \   \   \
+        /\    \        \___\   \
+       /  \    \                \
+      /   /    /          _______\
+     /   /    /          \       /
+    /   /    /            \     /
+    \   \    \ _____    ___\   /
+     \   \    /\    \  /       \
+      \   \  /  \____\/    _____\
+       \   \/        /    /    / \
+        \           /____/    /___\
+         \                        /
+          \______________________/
+          
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
