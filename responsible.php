@@ -53,6 +53,7 @@ class responsible {
 	function responsible() {
 		add_action( 'admin_bar_menu', array( $this, "responsible_menu" ), 100);
 		add_action( 'wp_enqueue_scripts', array( $this, "responsible_css" ) );
+		add_action( 'admin_enqueue_scripts', array( $this, "responsible_css" ) );
 	}
 
 	/**
