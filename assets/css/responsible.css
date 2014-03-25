@@ -1,0 +1,37 @@
+#wp-admin-bar-responsible .ab-empty-item
+	{
+	padding: 0 !important;
+	}
+
+.tablet-icon
+	{
+	color: #999;
+	}
+
+.tablet-icon:hover
+	{
+	color: #2ea2cc;
+	}
+
+.tablet-icon:before
+	{
+	display: block !important;
+	font-family: dashicons;
+	content: "\f115";
+	padding: 0;
+	font-size: 20px;
+	}
+
+@media screen and (max-width: 782px) 
+	{
+	#wpadminbar li#wp-admin-bar-responsible 
+		{
+		display: block;
+		}
+
+	.tablet-icon:before
+		{
+		font-size: 35px;
+		padding-top: 7px;
+		}
+	}

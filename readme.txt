@@ -1,0 +1,52 @@
+=== Responsible ===
+Contributors: scottsweb, codeforthepeople
+Donate link: https://flattr.com/profile/scottsweb/things
+Tags: responsible, responsive, viewport, resizer, resizing, iphone, device, test, admin, bar, admin bar
+Requires at least: 3.5
+Tested up to: 3.8.1
+Stable tag: trunk
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Viewport resizing comes to the WordPress admin bar
+
+== Description ==
+
+Test your responsive website from the WordPress admin bar. This plugin uses the excellent [Viewport Resizer bookmarklet](http://lab.maltewassermann.com/viewport-resizer/) to add a responsive button to the WordPress admin bar. Once pressed you can easily test your site in a range of common viewport sizes (e.g. iPhone, Tablet and Desktop).
+
+== Installation ==
+
+To install this plugin:
+
+1. Upload the `responsible` folder to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. That's it!
+
+== Frequently Asked Questions ==
+
+= Hooks & Filters =
+
+The plugin has one filter that allows you register a custom bookmarklet. You can generate your own [here](http://lab.maltewassermann.com/viewport-resizer/).
+
+`add_filter('responsible_bookmarklet', 'custom_bookmarklet');
+
+function custom_bookmarklet() {
+  return '';  // add your generated JS/HTML here
+}
+`
+
+== Screenshots ==
+
+1. Admin bar button with activated viewport resizer bookmarklet toolbar above
+
+== Changelog ==
+
+= 1.0 =
+* Initial release
+
+
+
+
+
+
+

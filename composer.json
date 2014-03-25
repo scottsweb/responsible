@@ -1,0 +1,15 @@
+{
+	"name"       : "cftp/responsible",
+	"description": "Viewport resizing comes to the WordPress admin bar",
+	"type"       : "wordpress-plugin",
+	"license"    : "GPL-2.0+",
+	"authors"    : [
+		{
+			"name"    : "Code For The People",
+			"homepage": "http://codeforthepeople.com/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
