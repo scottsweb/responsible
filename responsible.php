@@ -131,7 +131,6 @@ class responsible {
 	 * bookmarklet
 	 *
 	 * Return bookmarklet code. Provided by http://lab.maltewassermann.com/viewport-resizer/
-	 * Filterable if you changes required
 	 * 
 	 * @return string
 	 */
