@@ -1,7 +1,7 @@
 === Responsible ===
 Contributors: scottsweb, codeforthepeople
 Tags: responsible, responsive, viewport, resizer, resizing, iphone, device, test, admin, bar, admin bar
-Requires at least: 3.5
+Requires at least: 3.8
 Tested up to: 3.8.1
 Stable tag: trunk
 License: GPLv2 or later
