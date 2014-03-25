@@ -1,6 +1,6 @@
 <?php
 /*	
-Plugin Name: Responsbile
+Plugin Name: Responsible
 Plugin URI: https://github.com/cftp/responsible
 Description: Viewport resizing comes to the WordPress admin bar
 Version: 1.0
