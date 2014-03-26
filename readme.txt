@@ -13,6 +13,10 @@ Viewport resizing comes to the WordPress admin bar
 
 Test your responsive website from the WordPress admin bar. This plugin uses the excellent [Viewport Resizer bookmarklet](http://lab.maltewassermann.com/viewport-resizer/) to add a responsive button to the WordPress admin bar. Once pressed you can easily test your site in a range of common viewport sizes (e.g. iPhone, Tablet and Desktop).
 
+The plugin is handy for testing during development and also for writers and editors to preview their content on different devices.
+
+Banner illustration above by [Gemma Garner](http://gemmagarner.com/).
+
 == Installation ==
 
 To install this plugin:
@@ -36,7 +40,8 @@ function custom_bookmarklet() {
 
 == Screenshots ==
 
-1. Admin bar button with activated viewport resizer bookmarklet toolbar above
+1. Admin bar button with activated viewport resizer toolbar
+2. Viewing a website at iPhone dimensions
 
 == Changelog ==
 
