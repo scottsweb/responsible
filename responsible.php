@@ -3,7 +3,7 @@
 Plugin Name: Responsible
 Plugin URI: https://github.com/cftp/responsible
 Description: Viewport resizing comes to the WordPress admin bar
-Version: 1.0
+Version: 1.1
 Author: Code For The People
 Author URI: http://codeforthepeople.com
 Text Domain: responsible
@@ -64,6 +64,7 @@ class responsible {
 	 * @return void
 	 */
 	function responsible_css() {
+		if ( ! is_admin_bar_showing() ) return;
 		wp_enqueue_style( 'responsible', plugin_dir_url( __FILE__ ).'assets/css/responsible.css', array( 'dashicons' ), '1.0' );
 	}
 

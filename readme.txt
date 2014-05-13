@@ -45,6 +45,9 @@ function custom_bookmarklet() {
 
 == Changelog ==
 
+= 1.1 =
+* Only load CSS assets when admin bar is visible
+
 = 1.0 =
 * Initial release
 
