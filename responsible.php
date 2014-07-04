@@ -1,10 +1,10 @@
 <?php
-/*	
+/*
 Plugin Name: Responsible
 Plugin URI: https://github.com/cftp/responsible
 Description: Viewport resizing comes to the WordPress admin bar
 Version: 1.1
-Author: Code For The People
+Author: Scott Evans (Code For The People)
 Author URI: http://codeforthepeople.com
 Text Domain: responsible
 Domain Path: /assets/languages/
@@ -28,7 +28,7 @@ Copyright © 2013 Code for the People ltd
         \           /____/    /___\
          \                        /
           \______________________/
-          
+
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -46,7 +46,7 @@ class responsible {
 
 	/**
 	 * responsible
-	 * 
+	 *
 	 * @return void
 	 * @author Scott Evans
 	 */
@@ -60,7 +60,7 @@ class responsible {
 	 * responsible_css
 	 *
 	 * Enqueue the required CSS for icons etc
-	 * 
+	 *
 	 * @return void
 	 */
 	function responsible_css() {
@@ -82,7 +82,7 @@ class responsible {
 	 * @author Scott Evans
 	 */
 	function add_root_menu($name, $id, $href = FALSE) {
-		
+
 		global $wp_admin_bar;
 
 		if ( !is_admin_bar_showing() )
@@ -109,9 +109,9 @@ class responsible {
 	 * @author Scott Evans
 	 */
 	function add_sub_menu($name, $link, $root_menu, $id, $meta = FALSE) {
-		
+
 		global $wp_admin_bar;
-		
+
 		if ( ! is_admin_bar_showing() )
 			return;
 
@@ -132,7 +132,7 @@ class responsible {
 	 * bookmarklet
 	 *
 	 * Return bookmarklet code. Provided by http://lab.maltewassermann.com/viewport-resizer/
-	 * 
+	 *
 	 * @return string
 	 */
 	function bookmarklet() {

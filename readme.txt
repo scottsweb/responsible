@@ -25,6 +25,8 @@ To install this plugin:
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. That's it!
 
+Alternatively you can search for the plugin from your WordPress dashboard and install from there.
+
 == Frequently Asked Questions ==
 
 = Hooks & Filters =
