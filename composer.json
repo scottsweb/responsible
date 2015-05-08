@@ -1,12 +1,12 @@
 {
-	"name"       : "cftp/responsible",
-	"description": "Viewport resizing comes to the WordPress admin bar",
+	"name"       : "scottsweb/responsible",
+	"description": "Viewport resizing comes to the WordPress admin bar.",
 	"type"       : "wordpress-plugin",
 	"license"    : "GPL-2.0+",
 	"authors"    : [
 		{
-			"name"    : "Code For The People",
-			"homepage": "http://codeforthepeople.com/"
+			"name"    : "Scott Evans",
+			"homepage": "http://scott.ee/"
 		}
 	],
 	"require": {

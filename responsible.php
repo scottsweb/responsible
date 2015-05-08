@@ -1,34 +1,17 @@
 <?php
 /*
 Plugin Name: Responsible
-Plugin URI: https://github.com/cftp/responsible
-Description: Viewport resizing comes to the WordPress admin bar
+Plugin URI: https://github.com/scottsweb/responsible
+Description: Viewport resizing comes to the WordPress admin bar.
 Version: 1.1
-Author: Scott Evans (Code For The People)
-Author URI: http://codeforthepeople.com
+Author: Scott Evans
+Author URI: http://scott.ee
 Text Domain: responsible
 Domain Path: /assets/languages/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Copyright © 2013 Code for the People ltd
-
-                _____________
-               /      ____   \
-         _____/       \   \   \
-        /\    \        \___\   \
-       /  \    \                \
-      /   /    /          _______\
-     /   /    /          \       /
-    /   /    /            \     /
-    \   \    \ _____    ___\   /
-     \   \    /\    \  /       \
-      \   \  /  \____\/    _____\
-       \   \/        /    /    / \
-        \           /____/    /___\
-         \                        /
-          \______________________/
-
+Copyright © 2013 Scott Evans
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

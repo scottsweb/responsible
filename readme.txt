@@ -2,12 +2,12 @@
 Contributors: scottsweb, codeforthepeople
 Tags: responsible, responsive, viewport, resizer, resizing, iphone, device, test, admin, bar, admin bar
 Requires at least: 3.8
-Tested up to: 4.0
+Tested up to: 4.2.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Viewport resizing comes to the WordPress admin bar
+Viewport resizing comes to the WordPress admin bar.
 
 == Description ==
 
@@ -15,7 +15,9 @@ Test your responsive website from the WordPress admin bar. This plugin uses the 
 
 The plugin is handy for testing during development and also for writers and editors to preview their content on different devices.
 
-Banner illustration above by [Gemma Garner](http://gemmagarner.com/).
+Banner illustration above by [Gemma Garner](http://gemmagarner.com/ "WordPress design and illustration").
+
+[a plugin by Scott Evans](http://scott.ee/ "WordPress web design Hampshire")
 
 == Installation ==
 
@@ -36,7 +38,7 @@ The plugin has one filter that allows you register a custom bookmarklet. You can
 `add_filter('responsible_bookmarklet', 'custom_bookmarklet');
 
 function custom_bookmarklet() {
-  return '';  // add your generated JS/HTML here
+    return '';  // add your generated JS/HTML here
 }
 `
 
