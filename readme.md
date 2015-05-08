@@ -36,7 +36,7 @@ The plugin has one filter that allows you register a custom bookmarklet. You can
 add_filter('responsible_bookmarklet', 'custom_bookmarklet');
 
 function custom_bookmarklet() {
-  return '';  // add your generated JS/HTML here
+    return '';  // add your generated JS/HTML here
 }
 ```
 
