@@ -1,4 +1,4 @@
-![Responsible](http://cloud.scott.ee/images/responsible.png)
+![Responsible](https://scott.ee/images/responsible.png)
 
 # Responsible
 
