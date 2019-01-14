@@ -5,7 +5,7 @@ Plugin URI: https://github.com/scottsweb/responsible
 Description: Viewport resizing comes to the WordPress admin bar.
 Version: 1.1
 Author: Scott Evans
-Author URI: http://scott.ee
+Author URI: https://scott.ee
 Text Domain: responsible
 Domain Path: /assets/languages/
 License: GPLv2 or later
@@ -119,7 +119,7 @@ class responsible {
 	 * @return string
 	 */
 	function bookmarklet() {
-		return apply_filters( 'responsible_bookmarklet', "javascript:void((function(d){if(self!=top||d.getElementById('toolbar')&&d.getElementById('toolbar').getAttribute('data-resizer'))return false;d.write('<!DOCTYPE HTML><html style=&quot;opacity:0;&quot;><head><meta charset=&quot;utf-8&quot;/></head><body><a data-viewport=&quot;320x480&quot; data-icon=&quot;mobile&quot;>Mobile (e.g. Apple iPhone)</a><a data-viewport=&quot;320x568&quot; data-icon=&quot;mobile&quot; data-version=&quot;5&quot;>Apple iPhone 5</a><a data-viewport=&quot;600x800&quot; data-icon=&quot;small-tablet&quot;>Small Tablet</a><a data-viewport=&quot;768x1024&quot; data-icon=&quot;tablet&quot;>Tablet (e.g. Apple iPad 2-3rd, mini)</a><a data-viewport=&quot;1280x800&quot; data-icon=&quot;notebook&quot;>Widescreen</a><a data-viewport=&quot;1920×1080&quot; data-icon=&quot;tv&quot;>HDTV 1080p</a><script src=&quot;http://lab.maltewassermann.com/viewport-resizer/resizer.min.js&quot;></script></body></html>')})(document));" );
+		return apply_filters( 'responsible_bookmarklet', "javascript:void((function(d){if(self!=top||d.getElementById('toolbar')&&d.getElementById('toolbar').getAttribute('data-resizer'))return false;d.write('<!DOCTYPE HTML><html style=&quot;opacity:0;&quot;><head><meta charset=&quot;utf-8&quot;/></head><body><a data-viewport=&quot;320x480&quot; data-icon=&quot;mobile&quot;>Mobile (e.g. Apple iPhone)</a><a data-viewport=&quot;320x568&quot; data-icon=&quot;mobile&quot; data-version=&quot;5&quot;>Apple iPhone 5</a><a data-viewport=&quot;600x800&quot; data-icon=&quot;small-tablet&quot;>Small Tablet</a><a data-viewport=&quot;768x1024&quot; data-icon=&quot;tablet&quot;>Tablet (e.g. Apple iPad 2-3rd, mini)</a><a data-viewport=&quot;1280x800&quot; data-icon=&quot;notebook&quot;>Widescreen</a><a data-viewport=&quot;1920×1080&quot; data-icon=&quot;tv&quot;>HDTV 1080p</a><script src=&quot;//lab.maltewassermann.com/viewport-resizer/resizer.min.js&quot;></script></body></html>')})(document));" );
 	}
 }
 
