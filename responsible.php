@@ -64,7 +64,7 @@ class responsible {
 	 * @return void
 	 * @author Scott Evans
 	 */
-	function add_root_menu($name, $id, $href = FALSE) {
+	function add_root_menu($name, $id, $href = false) {
 
 		global $wp_admin_bar;
 
@@ -91,7 +91,7 @@ class responsible {
 	 * @return void
 	 * @author Scott Evans
 	 */
-	function add_sub_menu($name, $link, $root_menu, $id, $meta = FALSE) {
+	function add_sub_menu($name, $link, $root_menu, $id, $meta = false) {
 
 		global $wp_admin_bar;
 
